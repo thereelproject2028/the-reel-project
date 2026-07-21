@@ -1,120 +1,162 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>The Reel Project</title>
+<meta charset="UTF-8">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+<title>The Reel Project</title>
 
-  <link href="https://api.fontshare.com/v2/css?f[]=open-sauce-one@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-  <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-  <!-- CUSTOM CURSOR -->
-  <div class="cursor">✦</div>
 
-  <!-- NAVIGATION -->
-  <header>
-    <div class="nav-wrap">
+<header>
 
-      <a href="index.html" class="brand">
-        <img src="assets/logo.png" alt="The Reel Project logo">
-        <span>the reel project</span>
-      </a>
+<div class="nav-wrap">
 
-      <nav>
-        <a href="index.html">home</a>
-        <a href="about.html">about us</a>
-        <a href="services.html">services</a>
-        <a href="portfolio.html">portfolio</a>
-        <a href="contact.html">contact</a>
-      </nav>
+<div class="brand">
 
-    </div>
-  </header>
+<img src="assets/logo.png" alt="The Reel Project logo">
+
+<span>the reel project</span>
+
+</div>
 
 
-  <!-- HERO PAGE -->
-  <main>
+<nav>
 
-    <section class="hero">
+<ul>
 
-      <!-- BIG DECORATIVE STAR -->
-      <img
-        src="assets/stars.png"
-        alt=""
-        class="hero-star hero-star-one"
-      >
+<li>
+<a href="index.html" class="active">
+home
+</a>
+</li>
 
-      <!-- SECOND STAR -->
-      <img
-        src="assets/stars.png"
-        alt=""
-        class="hero-star hero-star-two"
-      >
+<li>
+<a href="about.html">
+about us
+</a>
+</li>
 
-      <!-- CAMERA -->
-      <img
-        src="assets/cameria.png"
-        alt=""
-        class="hero-camera"
-      >
+<li>
+<a href="services.html">
+services
+</a>
+</li>
 
-      <!-- YOUR SCRAPBOOK "WELCOME TO" IMAGE -->
-      <img
-        src="assets/hero.png"
-        alt="Welcome to The Reel Project"
-        class="hero-welcome"
-      >
+<li>
+<a href="contact.html">
+contact
+</a>
+</li>
 
-      <!-- LOGO -->
-      <img
-        src="assets/logo.png"
-        alt="The Reel Project"
-        class="hero-logo"
-      >
+</ul>
 
-      <p class="hero-subtitle">
-        your new
-        <span>creative consultant</span>
-      </p>
+</nav>
 
-      <p class="hero-description">
-        we're a student-run creative studio helping local businesses
-        bring their ideas to life through branding, social media,
-        and digital content.
-      </p>
+</div>
 
-      <a href="about.html" class="cute-button">
-        get to know us ✦
-      </a>
-
-      <!-- FLOATING SCRAPBOOK PIECES -->
-      <img src="assets/scrap1.png" class="floating-scrap scrap-one" alt="">
-      <img src="assets/scrap2.png" class="floating-scrap scrap-two" alt="">
-      <img src="assets/scrap3.png" class="floating-scrap scrap-three" alt="">
-
-    </section>
-
-  </main>
+</header>
 
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="foot-logo">the reel project</div>
-    <p>© 2026 the reel project · made with care and a lot of washi tape</p>
-  </footer>
+
+<main class="page hero">
 
 
-  <script src="script.js"></script>
+<!-- YOUR CUSTOM WELCOME IMAGE -->
+
+<img
+src="assets/hero.png"
+alt="welcome to the reel project"
+class="hero-welcome"
+>
+
+
+<!-- HERO STARS -->
+
+<img
+src="assets/stars.png"
+class="hero-star star-one"
+alt=""
+>
+
+<img
+src="assets/stars.png"
+class="hero-star star-two"
+alt=""
+>
+
+
+<!-- CAMERA -->
+
+<img
+src="assets/cameria.png"
+class="hero-camera"
+alt=""
+>
+
+
+<!-- MAIN LOGO -->
+
+<img
+src="assets/logo.png"
+class="hero-logo reveal"
+alt="The Reel Project"
+>
+
+
+<!-- SCRIPT -->
+
+<div class="hero-script reveal">
+
+your new
+<br>
+
+creative consultant
+
+</div>
+
+
+<p class="hero-description reveal">
+
+We're a student-run creative studio helping local businesses
+build beautiful brands and stronger digital presences.
+
+</p>
+
+
+</main>
+
+
+
+<footer>
+
+<div class="footer-logo">
+
+the reel project
+
+</div>
+
+<p>
+
+© 2026 the reel project · made with care
+
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
